@@ -1,0 +1,56 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "start": "node ./build/dev-server.js",
+    "dev": "node ./build/dev-server.js",
+    "int": "node ./build/int-server.js ",
+    "prod": "node ./build/prod-server.js ",
+    "unit": "npm run lint-fix && ava ./verification/test/*",
+    "lint-fix": "eslint --fix --ext .js, ./verification/test ./service ./controller ./respository ./model"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "chalk": "^2.3.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "graceful": "^1.0.1",
+    "lodash": "^4.17.5",
+    "method-override": "^2.3.10",
+    "moment": "^2.21.0",
+    "mongodb-memory-server": "^1.7.0",
+    "mongoose": "^5.0.10",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "redis": "^2.8.0",
+    "serve-favicon": "^2.4.5",
+    "socket.io": "^2.1.0",
+    "superagent": "^3.8.3",
+    "superagent-proxy": "^1.0.3",
+    "winston": "^2.4.0"
+  },
+  "engines": {
+    "node": "8.3.0",
+    "npm": "5.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^4.18.2",
+    "eslint-config-google": "^0.9.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-ava": "^4.5.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "sinon": "^4.4.6"
+  }
+}

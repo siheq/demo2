@@ -1,0 +1,96 @@
+@import './colors';
+
+.ciot_header {
+  background-color: $ciot_light_blue !important;
+  color: $ciot-white !important;
+  th {
+    text-align: left !important;
+    border-left: 1px solid #ffffff00 !important;
+    padding-right: 0 !important;
+    .text {
+      border-right: 1px solid $ciot_border_blue !important;
+    }
+  }
+}
+
+body {
+  min-width: 1280px;
+  min-height: 100vh;
+  position: relative;
+  -moz-box-shadow:-5px -5px 5px #999 inset;             /* For Firefox3.6+ */
+  -webkit-box-shadow:-5px -5px 5px #999 inset;          /* For Chrome5+, Safari5+ */
+  box-shadow:-5px -5px 5px #999 inset;
+}
+
+.page_title {
+  font-size: 120%;
+  color: #333333;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.last-updated-date {
+  text-align: right;
+  font-size: 12px;
+  position: relative;
+  top: 8px;
+  color: $ciot_light_blue;
+  height: 0;
+}
+
+.pure-g {
+  font-family: FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif;
+}
+
+.pure-table {
+  th {
+    font-size: 12px !important;
+    font-weight: normal;
+  }
+  td {
+    font-size: 12px !important;
+  }
+}
+
+.leaflet-bottom {
+  bottom: 10px;
+}
+
+.map-popup {
+  color: $rm-dark-grey;
+  .leaflet-popup-content-wrapper {
+    background: rgba(255, 255, 255, .9);
+    border-radius: 0;
+  }
+  p {
+    margin: 10px 0;
+  }
+  .title {
+    color: #a5a6a7;
+  }
+}
+
+.path-gray {
+  stroke: $rm-light-grey;
+}
+
+.fill-gray {
+  fill: $rm-light-grey;
+}
+
+.tooltip-container {
+  max-resolution: 10px !important;
+}
+
+.lang {
+  .el-dropdown {
+    color: $ciot_light_blue !important;
+  }
+}
+.leaflet-popup-tip {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

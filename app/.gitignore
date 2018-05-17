@@ -1,0 +1,3 @@
+verification/test/e2e/errorShots
+verification/test/unit/report/coverage
+.nyc_output

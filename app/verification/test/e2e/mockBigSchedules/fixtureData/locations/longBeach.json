@@ -1,0 +1,53 @@
+[
+  {
+    "_id": "59c3ff4bb8375ae68ddfaf36",
+    "unlocode": "USLGB",
+    "csID": "425",
+    "timezone": "America/Los Angeles",
+    "uc_name": "LONG BEACH",
+    "fullName": "Long Beach, California, United States",
+    "geo": [
+      -118.19373,
+      33.77005
+    ],
+    "refreshDateTime": "2017-09-21T18:04:22.823Z",
+    "name": "Long Beach",
+    "csCityID": "2533284",
+    "locationID": "P425",
+    "type": "PORT"
+  },
+  {
+    "_id": "59c3ff4eb8375ae68ddfb96e",
+    "unlocode": "USLBH",
+    "csID": "2898",
+    "timezone": "America/Chicago",
+    "uc_name": "LONG BEACH",
+    "fullName": "Long Beach, Mississippi, United States",
+    "geo": [
+      -89.15282,
+      30.350475
+    ],
+    "refreshDateTime": "2017-09-21T18:04:22.823Z",
+    "name": "Long Beach",
+    "csCityID": "2217115",
+    "locationID": "P2898",
+    "type": "PORT"
+  },
+  {
+    "_id": "59c3ff4bb8375ae68ddfaf4b",
+    "unlocode": "USNGC",
+    "csID": "5840",
+    "timezone": "America/New York",
+    "uc_name": "LONG BEACH",
+    "fullName": "Long Beach, New York, United States",
+    "geo": [
+      -73.657906,
+      40.588436
+    ],
+    "refreshDateTime": "2017-09-21T18:04:22.823Z",
+    "name": "Long Beach",
+    "csCityID": "2234016",
+    "locationID": "P5840",
+    "type": "PORT"
+  }
+]

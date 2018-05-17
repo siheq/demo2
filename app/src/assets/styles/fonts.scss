@@ -1,0 +1,24 @@
+@import './sizes';
+@import './colors';
+
+
+
+body, input, select, textarea, button th td {
+  font-family: Helvetica Neue,Arial,PingFang SC,Source Han Sans SC,Microsoft YaHei,Noto Sans CJK SC,sans-serif;
+}
+
+
+.pure-g  {
+  font-family: Helvetica Neue,Arial,PingFang SC,Source Han Sans SC,Microsoft YaHei,Noto Sans CJK SC,sans-serif!important;
+}
+
+.pure-g [class*=pure-u]{
+  font-family: Helvetica Neue,Arial,PingFang SC,Source Han Sans SC,Microsoft YaHei,Noto Sans CJK SC,sans-serif!important;
+}
+
+body {
+  margin: 0;
+  background-color: $ciot_background_blue;
+  margin-right: calc(-1 * (100vw - 100%));
+  width:100%
+}

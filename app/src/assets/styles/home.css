@@ -1,0 +1,81 @@
+@import "./colors.scss";
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+body {
+  line-height: 1.7em;
+  color: #7f8c8d;
+  font-size: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  color: #34495e;
+}
+
+.l-box {
+  padding: 1em;
+}
+
+.l-box-lrg {
+  padding: 2em;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.is-center {
+  text-align: center;
+}
+
+.panel {
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.3);
+}
+
+@media (min-width: 48em) {
+
+  body {
+    font-size: 16px;
+  }
+
+  .home-menu {
+    text-align: left;
+  }
+  .home-menu ul {
+    position: absolute;
+    right: 0px;
+  }
+
+  .splash {
+    width: 50%;
+    height: 50%;
+  }
+
+  .splash-head {
+    font-size: 250%;
+  }
+
+  .l-box-lrg {
+    border: none;
+  }
+
+}
+
+@media (min-width: 78em) {
+  .splash-head {
+    font-size: 300%;
+  }
+}

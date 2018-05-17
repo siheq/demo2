@@ -1,0 +1,36 @@
+[
+  {
+    "_id": "5a1ef688636412749135e8d7",
+    "unlocode": "LKCMB",
+    "csID": "368",
+    "timezone": "Asia/Colombo",
+    "uc_name": "COLOMBO",
+    "fullName": "Colombo, Western, Sri Lanka",
+    "geo": [
+      79.861243,
+      6.927078
+    ],
+    "refreshDateTime": "2017-11-29T18:03:27.871Z",
+    "name": "Colombo",
+    "csCityID": "2539820",
+    "locationID": "P368",
+    "type": "PORT"
+  },
+  {
+    "_id": "5a1ef687636412749135e2e0",
+    "unlocode": "LKRML",
+    "csID": "5977",
+    "timezone": "Asia/Colombo",
+    "uc_name": "COLOMBO/RATMALANA APT",
+    "fullName": "Colombo/Ratmalana Apt, Sri Lanka",
+    "geo": [
+      79.884537,
+      6.80814
+    ],
+    "refreshDateTime": "2017-11-29T18:03:27.871Z",
+    "name": "Colombo/Ratmalana Apt",
+    "csCityID": "2549945",
+    "locationID": "P5977",
+    "type": "PORT"
+  }
+]

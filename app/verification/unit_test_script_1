@@ -1,0 +1,13 @@
+#!/bin/bash
+set -e
+echo "Start run Unit Test......"
+basedir=$(dirname "$0")
+
+echo "registry=http://hkgcvpd00111:8081/artifactory/api/npm/npm-repository-virtual-external" > "app/.npmrc"
+
+# ./node_modules/mocha/bin/mocha "$basedir/test/**.js"
+cd app
+
+npm run coverage
+
+echo "Unit Test Complete"

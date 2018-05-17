@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon / 20dp / car / active</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="13.9834667 5.0446155 17.0148267 5.0446155 18.9681164 7.03751743 18.9681164 15.5038571 1.60107684 15.5038571 1.60107684 10.3425968 1.60107684 5.02171679"></polygon>
+        <rect id="path-2" x="1" y="3" width="13" height="8" rx="1"></rect>
+    </defs>
+    <g id="icon-/-20dp-/-car-/-active" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <rect id="Rectangle-2" x="0" y="0" width="20" height="20"></rect>
+            <g id="Path-4" stroke-linecap="square" stroke-linejoin="round">
+                <use fill="#004F8E" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#FFFFFF" stroke-width="1.2" d="M13.9840215,4.4446155 L17.2668902,4.4446155 L19.5681164,6.79250999 L19.5681164,16.1038571 L1.00107684,16.1038571 L1.00107684,4.42060619 L13.9840215,4.4446155 Z"></path>
+            </g>
+            <g id="Rectangle-3" stroke-linecap="round" stroke-linejoin="round">
+                <use fill="#004F8E" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#FFFFFF" stroke-width="1.2" x="0.4" y="2.4" width="14.2" height="9.2" rx="1"></rect>
+            </g>
+            <circle id="Oval-5" stroke="#FFFFFF" stroke-width="1.2" fill="#004F8E" cx="4.5" cy="15.5" r="2.5"></circle>
+            <circle id="Oval-5-Copy" stroke="#FFFFFF" stroke-width="1.2" fill="#004F8E" cx="15.5" cy="15.5" r="2.5"></circle>
+        </g>
+    </g>
+</svg>

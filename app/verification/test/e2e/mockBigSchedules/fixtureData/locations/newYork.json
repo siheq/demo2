@@ -1,0 +1,53 @@
+[
+  {
+    "_id": "5a1ef686636412749135e01a",
+    "unlocode": "USNYC",
+    "csID": "429",
+    "timezone": "America/New York",
+    "uc_name": "NEW YORK",
+    "fullName": "New York, New York, United States",
+    "geo": [
+      -74.005941,
+      40.712784
+    ],
+    "refreshDateTime": "2017-11-29T18:03:27.871Z",
+    "name": "New York",
+    "csCityID": "2537583",
+    "locationID": "P429",
+    "type": "PORT"
+  },
+  {
+    "_id": "5a1ef686636412749135dec2",
+    "unlocode": "USNYQ",
+    "csID": "3298",
+    "timezone": "America/Chicago",
+    "uc_name": "NEW YORK MILLS",
+    "fullName": "New York Mills, Minnesota, United States",
+    "geo": [
+      -75.291278,
+      43.105348
+    ],
+    "refreshDateTime": "2017-11-29T18:03:27.871Z",
+    "name": "New York Mills",
+    "csCityID": "2537518",
+    "locationID": "P3298",
+    "type": "PORT"
+  },
+  {
+    "_id": "5a1ef6aa636412749136da04",
+    "unlocode": "USZ2E",
+    "csID": "2234451",
+    "timezone": "America/New York",
+    "uc_name": "NEW YORK MILLS",
+    "fullName": "New York Mills, New York, United States",
+    "geo": [
+      -75.291278,
+      43.105348
+    ],
+    "refreshDateTime": "2017-11-29T18:03:27.871Z",
+    "name": "New York Mills",
+    "csCityID": "2234451",
+    "locationID": "C2234451",
+    "type": "CITY"
+  }
+]

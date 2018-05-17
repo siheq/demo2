@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Start run E2E Test......"
+basedir=$(dirname "$0")
+
+npm install moment
+
+sh $basedir/test/e2e/run_e2e_tests_ci.sh
+
+echo "E2E Test Complete"

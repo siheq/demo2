@@ -1,0 +1,36 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes shipMotion {
+  0% {
+    top: -12.5rem;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    top: -12.3rem;
+    animation-timing-function: ease-out;
+  }
+  100% {
+    top: -12.5rem;
+  }
+}
+
+@keyframes waveMotion {
+  0% {
+    top: -15.7rem;
+    animation-timing-function: ease-in;
+  }
+  50% {
+    top: -16.0rem;
+    animation-timing-function: ease-out;
+  }
+  100% {
+    top: -15.7rem;
+  }
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "5a1ef687636412749135e6d8",
+    "unlocode": "CNYTN",
+    "csID": "508",
+    "timezone": "Asia/Shanghai",
+    "uc_name": "YANTIAN",
+    "fullName": "Yantian, Guangdong, China",
+    "geo": [
+      114.236875,
+      22.556499
+    ],
+    "refreshDateTime": "2017-11-29T18:03:27.871Z",
+    "name": "Yantian",
+    "csCityID": "2534801",
+    "locationID": "P508",
+    "type": "PORT"
+  }
+]

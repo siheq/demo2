@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+echo "Coverage report....."
+# basedir=$(dirname "$0")
+# ./node_modules/mocha/bin/mocha "$basedir/test/**.js"
+cd app
+
+npm run coverage

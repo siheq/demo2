@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>component / timeline / stop inactive</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="component-/-timeline-/-stop-inactive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-2" stroke="#004F8E" stroke-width="2" cx="18" cy="18" r="17"></circle>
+        <g id="icon-/-20dp-/-mao-/-dark" transform="translate(8.000000, 8.000000)">
+            <rect id="Rectangle-4" x="0" y="0" width="20" height="20"></rect>
+            <circle id="Oval-3" stroke="#004F8E" stroke-width="1.5" cx="10" cy="5" r="2.25"></circle>
+            <path d="M2.78832279,10.75 C3.16361963,14.4016674 6.24917795,17.25 10,17.25 C13.750822,17.25 16.8363804,14.4016674 17.2116772,10.75 L2.78832279,10.75 Z" id="Oval-3-Copy" stroke="#004F8E" stroke-width="1.5"></path>
+            <path d="M6.78964904,9.75 L13.2292217,9.75" id="Path-7" stroke="#004F8E" stroke-width="1.5"></path>
+            <path d="M9.98502222,7.70723931 L9.98502222,17.3754554" id="Path-8" stroke="#004F8E" stroke-width="1.5"></path>
+        </g>
+    </g>
+</svg>

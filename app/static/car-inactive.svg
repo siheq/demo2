@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="19px" height="15px" viewBox="0 0 19 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon / 20dp / car / inactive</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="4.5" cy="15.5" r="2.5"></circle>
+        <circle id="path-2" cx="15.5" cy="15.5" r="2.5"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-/-20dp-/-car-/-inactive" transform="translate(-1.000000, -3.000000)">
+            <rect id="Rectangle-2" x="0" y="0" width="20" height="20"></rect>
+            <rect id="Rectangle-3" stroke="#004F8E" stroke-width="1.2" x="1.6" y="3.6" width="11.8" height="7.8" rx="1"></rect>
+            <polyline id="Path-4" stroke="#004F8E" stroke-width="1.2" stroke-linejoin="round" points="13.9834667 5.0446155 17.0148267 5.0446155 18.9681164 7.03751743 18.9681164 14.5038571 1.60107684 14.5038571 1.60107684 10.3425968"></polyline>
+            <g id="Oval-5">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <circle stroke="#004F8E" stroke-width="1.2" cx="4.5" cy="15.5" r="1.9"></circle>
+            </g>
+            <g id="Oval-5-Copy">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <circle stroke="#004F8E" stroke-width="1.2" cx="15.5" cy="15.5" r="1.9"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

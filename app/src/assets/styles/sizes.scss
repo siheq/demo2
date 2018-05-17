@@ -1,0 +1,34 @@
+$max-container-width: 100rem;
+$exterior-gutter: 1rem;
+$max-grid-width: $max-container-width - $exterior-gutter - $exterior-gutter;
+
+$autocomplete-scrollbar-width: 1rem;
+$suggestion-item-height: 1.5rem;
+$suggestion-item-vertical-padding: 0.1rem;
+$suggestion-item-text-padding: 0.5rem;
+$autocomplete-bottom-padding: 1.3rem;
+$autocomplete-input-width: 22.5rem;
+$autocomplete-input-height: 2.7rem;
+$autocomplete-list-padding: 0.25rem;
+$autocomplete-list-height: ($suggestion-item-height + ($suggestion-item-vertical-padding * 2)) * 7;
+$autocomplete-list-width: $autocomplete-input-width - ($autocomplete-list-padding * 2);
+$suggestion-item-width: $autocomplete-list-width - $autocomplete-scrollbar-width - 1rem;
+
+$red-underline-thickness: 0.15rem;
+$autocomplete-error-padding: 0.25rem;
+
+$autocomplete-server-error-dropdown-height: 2.3rem;
+
+
+// font size
+
+$letter-spacing: 0.043em;
+$tag-font-size: 0.75rem; // 12px
+$label-small-font-size: 0.75rem; // 12px
+$checkbox-font-size: 0.8125rem; // 13px
+$action-item-font-size: 0.875rem; // 14px
+$tab-font-size: 0.9375rem; // 15px
+$label-big-font-size: 1rem; // 16px
+$h3-font-size: 1.125rem; // 18px
+$h2-font-size: 1.375rem; // 22px
+$h1-font-size: 1.625rem; // 26px

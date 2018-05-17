@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "59c3ff50b8375ae68ddfc332",
+    "unlocode": "HKHKG",
+    "csID": "189",
+    "timezone": "Asia/Hong Kong",
+    "uc_name": "HONG KONG",
+    "fullName": "Hong Kong, Hong Kong",
+    "geo": [
+      114.1095,
+      22.396427
+    ],
+    "refreshDateTime": "2017-09-21T18:04:22.823Z",
+    "name": "Hong Kong",
+    "csCityID": "2531499",
+    "locationID": "P189",
+    "type": "PORT"
+  }
+]

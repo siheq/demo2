@@ -1,0 +1,11 @@
+---
+applications:
+- name: ciot_supp
+  command: npm run int
+  timeout: 180
+  memory: 2048M
+  disk_quota: 2G
+  buildpack: nodejs_buildpack_v1_6_6
+
+
+health-check-type: none

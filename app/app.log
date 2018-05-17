@@ -1,0 +1,1733 @@
+2018-05-16T06:50:41.230Z - [31merror[39m: uncaughtException: Cannot find module './webpack.dev.conf' date=Wed May 16 2018 14:50:41 GMT+0800 (China Standard Time), pid=11720, uid=null, gid=null, cwd=D:\IoTCode\ciot_supp\app, execPath=D:\some Tools\node8.30\node.exe, version=v8.3.0, argv=[D:\some Tools\node8.30\node.exe, D:\IoTCode\ciot_supp\app\build\dev-server.js], rss=62038016, heapTotal=58249216, heapUsed=24358824, external=17893943, loadavg=[0, 0, 0], uptime=379083.1101967
+Error: Cannot find module './webpack.dev.conf'
+    at Function.Module._resolveFilename (module.js:489:15)
+    at Function.Module._load (module.js:439:25)
+    at Module.require (module.js:517:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\lib\express.js:19:5)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Module.require (module.js:517:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\lib\app.js:7:17)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+2018-05-16T06:52:49.841Z - [31merror[39m: uncaughtException: require(...) is not a function date=Wed May 16 2018 14:52:49 GMT+0800 (China Standard Time), pid=736, uid=null, gid=null, cwd=D:\IoTCode\ciot_supp\app, execPath=D:\some Tools\node8.30\node.exe, version=v8.3.0, argv=[D:\some Tools\node8.30\node.exe, D:\IoTCode\ciot_supp\app\build\dev-server.js], rss=78053376, heapTotal=63008768, heapUsed=37857368, external=18077389, loadavg=[0, 0, 0], uptime=379211.7240568
+TypeError: require(...) is not a function
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\build\dev-server.js:30:22)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Function.Module.runMain (module.js:609:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:578:3
+2018-05-16T06:54:13.444Z - [31merror[39m: (node:2884) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): Error: Cannot find module '../model/demo.model'
+2018-05-16T06:54:13.446Z - [31merror[39m: (node:2884) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-16T06:55:46.869Z - [31merror[39m: (node:6336) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): Error: Cannot find module '../model/demo.model'
+2018-05-16T06:55:46.871Z - [31merror[39m: (node:6336) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-16T06:56:54.994Z - [31merror[39m: (node:7252) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot read property 'options' of undefined
+2018-05-16T06:56:54.996Z - [31merror[39m: (node:7252) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-16T07:01:54.000Z - [31merror[39m: (node:16800) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot read property 'options' of undefined
+2018-05-16T07:01:54.003Z - [31merror[39m: (node:16800) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-16T07:02:43.629Z - [31merror[39m: uncaughtException: Cannot read property 'autoOpenBrowser' of undefined date=Wed May 16 2018 15:02:43 GMT+0800 (China Standard Time), pid=8460, uid=null, gid=null, cwd=D:\IoTCode\ciot_supp\app, execPath=D:\some Tools\node8.30\node.exe, version=v8.3.0, argv=[D:\some Tools\node8.30\node.exe, D:\IoTCode\ciot_supp\app\build\dev-server.js], rss=77647872, heapTotal=63008768, heapUsed=37600536, external=18077389, loadavg=[0, 0, 0], uptime=379805.505429
+TypeError: Cannot read property 'autoOpenBrowser' of undefined
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\lib\express.js:21:35)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Module.require (module.js:517:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\lib\app.js:7:17)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Module.require (module.js:517:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\build\dev-server.js:30:1)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+2018-05-16T07:03:51.720Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:03:51.894Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-16T07:03:51.897Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-16T07:03:51.911Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-16T07:03:51.911Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-16T07:03:51.911Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-16T07:03:51.912Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-16T07:03:51.912Z - [32minfo[39m: [32mdefault Database:         10.222.48.147:27017/gps[39m
+2018-05-16T07:03:51.913Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-16T07:03:58.721Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-16T07:03:58.728Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 6854ms[39m                                  [90m15:03:58[39m
+2018-05-16T07:03:58.729Z - [32minfo[39m:  
+2018-05-16T07:03:58.806Z - [32minfo[39m: > Listening at http://localhost:3021
+
+2018-05-16T07:03:58.820Z - [31merror[39m: uncaughtException: _resolve is not defined date=Wed May 16 2018 15:03:58 GMT+0800 (China Standard Time), pid=9440, uid=null, gid=null, cwd=D:\IoTCode\ciot_supp\app, execPath=D:\some Tools\node8.30\node.exe, version=v8.3.0, argv=[D:\some Tools\node8.30\node.exe, D:\IoTCode\ciot_supp\app\build\dev-server.js], rss=277954560, heapTotal=241696768, heapUsed=164612264, external=23605592, loadavg=[0, 0, 0], uptime=379880.7079485
+ReferenceError: _resolve is not defined
+    at devMiddleware.waitUntilValid (D:\IoTCode\ciot_supp\app\lib\express.js:68:7)
+    at continueBecauseBundleAvailable (D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:139:6)
+    at Array.forEach (<anonymous>)
+    at D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:138:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-05-16T07:03:58.821Z - [31merror[39m: Graceful catch onuncaughtException: 1 times, log error here, and system will be shutdown by Graceful, error is: ReferenceError: _resolve is not defined
+    at devMiddleware.waitUntilValid (D:\IoTCode\ciot_supp\app\lib\express.js:68:7)
+    at continueBecauseBundleAvailable (D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:139:6)
+    at Array.forEach (<anonymous>)
+    at D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:138:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+2018-05-16T07:03:58.821Z - [31merror[39m: [Wed May 16 2018 15:03:58 GMT+0800 (China Standard Time)] [graceful:worker:9440:uncaughtException] throw error 1 times
+2018-05-16T07:03:58.823Z - [31merror[39m: ReferenceError: _resolve is not defined
+    at devMiddleware.waitUntilValid (D:\IoTCode\ciot_supp\app\lib\express.js:68:7)
+    at continueBecauseBundleAvailable (D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:139:6)
+    at Array.forEach (<anonymous>)
+    at D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:138:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-05-16T07:03:58.823Z - [31merror[39m: ReferenceError: _resolve is not defined
+    at devMiddleware.waitUntilValid (D:\IoTCode\ciot_supp\app\lib\express.js:68:7)
+    at continueBecauseBundleAvailable (D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:139:6)
+    at Array.forEach (<anonymous>)
+    at D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:138:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-05-16T07:03:58.823Z - [31merror[39m: [Wed May 16 2018 15:03:58 GMT+0800 (China Standard Time)] [graceful:worker:9440] will exit after 30000ms
+2018-05-16T07:04:28.826Z - [31merror[39m: [Wed May 16 2018 15:04:28 GMT+0800 (China Standard Time)] [graceful:worker:9440] kill timeout, exit now.
+2018-05-16T07:05:16.697Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:05:16.898Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-16T07:05:16.902Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-16T07:05:16.918Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-16T07:05:16.919Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-16T07:05:16.919Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-16T07:05:16.925Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-16T07:05:16.931Z - [32minfo[39m: [32mdefault Database:         10.222.48.147:27017/gps[39m
+2018-05-16T07:05:16.932Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-16T07:05:24.761Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-16T07:05:24.775Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 7886ms[39m                                  [90m15:05:24[39m
+2018-05-16T07:05:24.777Z - [32minfo[39m:  
+2018-05-16T07:05:24.862Z - [32minfo[39m: > Listening at http://localhost:3021
+
+2018-05-16T07:05:24.903Z - [31merror[39m: uncaughtException: _resolve is not defined date=Wed May 16 2018 15:05:24 GMT+0800 (China Standard Time), pid=12816, uid=null, gid=null, cwd=D:\IoTCode\ciot_supp\app, execPath=D:\some Tools\node8.30\node.exe, version=v8.3.0, argv=[D:\some Tools\node8.30\node.exe, D:\IoTCode\ciot_supp\app\build\dev-server.js], rss=320184320, heapTotal=282324992, heapUsed=251711984, external=23732875, loadavg=[0, 0, 0], uptime=379966.7905559
+ReferenceError: _resolve is not defined
+    at devMiddleware.waitUntilValid (D:\IoTCode\ciot_supp\app\lib\express.js:68:7)
+    at continueBecauseBundleAvailable (D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:139:6)
+    at Array.forEach (<anonymous>)
+    at D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:138:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-05-16T07:05:24.907Z - [31merror[39m: Graceful catch onuncaughtException: 1 times, log error here, and system will be shutdown by Graceful, error is: ReferenceError: _resolve is not defined
+    at devMiddleware.waitUntilValid (D:\IoTCode\ciot_supp\app\lib\express.js:68:7)
+    at continueBecauseBundleAvailable (D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:139:6)
+    at Array.forEach (<anonymous>)
+    at D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:138:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+2018-05-16T07:05:24.908Z - [31merror[39m: [Wed May 16 2018 15:05:24 GMT+0800 (China Standard Time)] [graceful:worker:12816:uncaughtException] throw error 1 times
+2018-05-16T07:05:24.911Z - [31merror[39m: ReferenceError: _resolve is not defined
+    at devMiddleware.waitUntilValid (D:\IoTCode\ciot_supp\app\lib\express.js:68:7)
+    at continueBecauseBundleAvailable (D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:139:6)
+    at Array.forEach (<anonymous>)
+    at D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:138:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-05-16T07:05:24.914Z - [31merror[39m: ReferenceError: _resolve is not defined
+    at devMiddleware.waitUntilValid (D:\IoTCode\ciot_supp\app\lib\express.js:68:7)
+    at continueBecauseBundleAvailable (D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:139:6)
+    at Array.forEach (<anonymous>)
+    at D:\IoTCode\ciot_supp\app\node_modules\webpack-dev-middleware\lib\Shared.js:138:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+2018-05-16T07:05:24.918Z - [31merror[39m: [Wed May 16 2018 15:05:24 GMT+0800 (China Standard Time)] [graceful:worker:12816] will exit after 30000ms
+2018-05-16T07:08:41.121Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:08:41.355Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-16T07:08:41.359Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-16T07:08:41.379Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-16T07:08:41.380Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-16T07:08:41.383Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-16T07:08:41.387Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-16T07:08:41.389Z - [32minfo[39m: [32mdefault Database:         10.222.48.147:27017/gps[39m
+2018-05-16T07:08:41.391Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-16T07:08:50.716Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-16T07:08:50.724Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 9385ms[39m                                  [90m15:08:50[39m
+2018-05-16T07:08:50.725Z - [32minfo[39m:  
+2018-05-16T07:10:00.602Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-16T07:10:47.102Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:10:47.278Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-16T07:10:47.281Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-16T07:10:47.296Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-16T07:10:47.297Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-16T07:10:47.298Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-16T07:10:47.299Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-16T07:10:47.301Z - [32minfo[39m: [32mdefault Database:         10.222.48.147:27017/gps[39m
+2018-05-16T07:10:47.302Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-16T07:10:54.428Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-16T07:10:54.437Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 7171ms[39m                                  [90m15:10:54[39m
+2018-05-16T07:10:54.439Z - [32minfo[39m:  
+2018-05-16T07:11:36.700Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-16T07:12:19.901Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:12:20.073Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-16T07:12:20.091Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-16T07:12:20.105Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-16T07:12:20.105Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-16T07:12:20.105Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-16T07:12:20.106Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-16T07:12:20.106Z - [32minfo[39m: [32mdefault Database:         10.222.48.147:27017/gps[39m
+2018-05-16T07:12:20.106Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-16T07:12:27.010Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-16T07:12:27.016Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 6959ms[39m                                  [90m15:12:27[39m
+2018-05-16T07:12:27.018Z - [32minfo[39m:  
+2018-05-16T07:14:54.851Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-16T07:15:47.089Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:15:47.273Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-16T07:15:47.277Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-16T07:15:47.291Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-16T07:15:47.291Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-16T07:15:47.292Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-16T07:15:47.292Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-16T07:15:47.293Z - [32minfo[39m: [32mdefault Database:         10.222.48.147:27017/gps[39m
+2018-05-16T07:15:47.293Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-16T07:15:55.343Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-16T07:15:55.351Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 8092ms[39m                                  [90m15:15:55[39m
+2018-05-16T07:15:55.353Z - [32minfo[39m:  
+2018-05-16T07:18:47.331Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-16T07:19:33.939Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:19:34.180Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-16T07:19:34.182Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-16T07:19:34.195Z - [32minfo[39m: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2018-05-16T07:19:34.201Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-16T07:19:34.202Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-16T07:19:34.202Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-16T07:19:34.203Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-16T07:19:34.204Z - [32minfo[39m: [32mdefault Database:         10.222.48.147:27017/gps[39m
+2018-05-16T07:19:34.204Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-16T07:19:42.387Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-16T07:19:42.393Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 8252ms[39m                                  [90m15:19:42[39m
+2018-05-16T07:19:42.396Z - [32minfo[39m:  
+2018-05-16T07:21:47.315Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-16T07:22:23.423Z - [31merror[39m: uncaughtException: Identifier 'app' has already been declared date=Wed May 16 2018 15:22:23 GMT+0800 (China Standard Time), pid=16060, uid=null, gid=null, cwd=D:\IoTCode\ciot_supp\app, execPath=D:\some Tools\node8.30\node.exe, version=v8.3.0, argv=[D:\some Tools\node8.30\node.exe, D:\IoTCode\ciot_supp\app\build\dev-server.js], rss=75542528, heapTotal=61919232, heapUsed=35956640, external=18077389, loadavg=[0, 0, 0], uptime=380985.3073974
+SyntaxError: Identifier 'app' has already been declared
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\build\dev-server.js:30:23)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Function.Module.runMain (module.js:609:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:578:3
+2018-05-16T07:23:11.562Z - [31merror[39m: uncaughtException: Identifier 'app' has already been declared date=Wed May 16 2018 15:23:11 GMT+0800 (China Standard Time), pid=16268, uid=null, gid=null, cwd=D:\IoTCode\ciot_supp\app, execPath=D:\some Tools\node8.30\node.exe, version=v8.3.0, argv=[D:\some Tools\node8.30\node.exe, D:\IoTCode\ciot_supp\app\build\dev-server.js], rss=75214848, heapTotal=61919232, heapUsed=35447168, external=18077389, loadavg=[0, 0, 0], uptime=381033.4422104
+SyntaxError: Identifier 'app' has already been declared
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\build\dev-server.js:30:23)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Function.Module.runMain (module.js:609:10)
+    at startup (bootstrap_node.js:158:16)
+    at bootstrap_node.js:578:3
+2018-05-16T07:24:04.788Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:24:04.827Z - [32minfo[39m: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2018-05-16T07:24:04.965Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-16T07:24:04.968Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-16T07:24:04.980Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-16T07:24:04.980Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-16T07:24:04.981Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-16T07:24:04.982Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-16T07:24:04.982Z - [32minfo[39m: [32mdefault Database:         10.222.48.147:27017/gps[39m
+2018-05-16T07:24:04.983Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-16T07:24:11.480Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-16T07:24:11.487Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 6539ms[39m                                  [90m15:24:11[39m
+2018-05-16T07:24:11.489Z - [32minfo[39m:  
+2018-05-16T07:24:15.829Z - [32minfo[39m: hhhhhhhhhhhhhhhhhh
+2018-05-16T07:30:15.086Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-16T07:33:10.878Z - [31merror[39m: uncaughtException: Cannot read property 'cssSourceMap' of undefined date=Wed May 16 2018 15:33:10 GMT+0800 (China Standard Time), pid=15784, uid=null, gid=null, cwd=D:\IoTCode\ciot_supp\app, execPath=D:\some Tools\node8.30\node.exe, version=v8.3.0, argv=[D:\some Tools\node8.30\node.exe, D:\IoTCode\ciot_supp\app\build\dev-server.js], rss=61976576, heapTotal=58249216, heapUsed=29012968, external=18299153, loadavg=[0, 0, 0], uptime=381632.7631365
+TypeError: Cannot read property 'cssSourceMap' of undefined
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\build\vue-loader.conf.js:9:19)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Module.require (module.js:517:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\build\webpack.base.conf.js:5:23)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Module.require (module.js:517:17)
+    at require (internal/module.js:11:18)
+2018-05-16T07:37:40.999Z - [31merror[39m: uncaughtException: Cannot read property 'assetsRoot' of undefined date=Wed May 16 2018 15:37:40 GMT+0800 (China Standard Time), pid=8956, uid=null, gid=null, cwd=D:\IoTCode\ciot_supp\app, execPath=D:\some Tools\node8.30\node.exe, version=v8.3.0, argv=[D:\some Tools\node8.30\node.exe, D:\IoTCode\ciot_supp\app\build\dev-server.js], rss=64020480, heapTotal=59338752, heapUsed=32701760, external=18471632, loadavg=[0, 0, 0], uptime=381902.8811456
+TypeError: Cannot read property 'assetsRoot' of undefined
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\build\webpack.base.conf.js:16:23)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Module.require (module.js:517:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\build\webpack.dev.conf.js:5:25)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Module.require (module.js:517:17)
+    at require (internal/module.js:11:18)
+2018-05-16T07:42:56.787Z - [31merror[39m: uncaughtException: Cannot read property 'assetsRoot' of undefined date=Wed May 16 2018 15:42:56 GMT+0800 (China Standard Time), pid=16888, uid=null, gid=null, cwd=D:\IoTCode\ciot_supp\app, execPath=D:\some Tools\node8.30\node.exe, version=v8.3.0, argv=[D:\some Tools\node8.30\node.exe, D:\IoTCode\ciot_supp\app\build\dev-server.js], rss=62160896, heapTotal=58249216, heapUsed=29109848, external=18299153, loadavg=[0, 0, 0], uptime=382218.666721
+TypeError: Cannot read property 'assetsRoot' of undefined
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\build\webpack.base.conf.js:16:23)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Module.require (module.js:517:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\build\webpack.dev.conf.js:5:25)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Module.require (module.js:517:17)
+    at require (internal/module.js:11:18)
+2018-05-16T07:44:37.186Z - [31merror[39m: uncaughtException: Cannot read property 'assetsSubDirectory' of undefined date=Wed May 16 2018 15:44:37 GMT+0800 (China Standard Time), pid=16192, uid=null, gid=null, cwd=D:\IoTCode\ciot_supp\app, execPath=D:\some Tools\node8.30\node.exe, version=v8.3.0, argv=[D:\some Tools\node8.30\node.exe, D:\IoTCode\ciot_supp\app\build\dev-server.js], rss=62291968, heapTotal=58249216, heapUsed=30856056, external=18321201, loadavg=[0, 0, 0], uptime=382319.0717605
+TypeError: Cannot read property 'assetsSubDirectory' of undefined
+    at Object.exports.assetsPath (D:\IoTCode\ciot_supp\app\build\utils.js:8:17)
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\build\webpack.base.conf.js:56:23)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Module.require (module.js:517:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\build\webpack.dev.conf.js:5:25)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Module.require (module.js:517:17)
+2018-05-16T07:47:08.939Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:47:08.978Z - [32minfo[39m: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2018-05-16T07:47:08.981Z - [31merror[39m: (node:15120) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): TypeError: Cannot read property 'assetsSubDirectory' of undefined
+2018-05-16T07:47:08.983Z - [31merror[39m: (node:15120) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-16T07:50:32.739Z - [32minfo[39m: util.js { env: { NODE_ENV: '"development"' },
+  db: 
+   { uri: '10.222.48.147:27017/gps',
+     options: { user: 'deviot', pass: 'deviot' } },
+  port: 3021,
+  host: '0.0.0.0',
+  log: 
+   { format: 'dev',
+     fileLogger: 
+      { directoryPath: 'D:\\IoTCode\\ciot_supp\\app',
+        fileName: 'app.log',
+        maxsize: 10485760,
+        maxFiles: 2,
+        json: false } },
+  sessionCookie: { maxAge: 86400000, httpOnly: true, secure: false },
+  autoOpenBrowser: true,
+  assetsSubDirectory: 'static',
+  assetsPublicPath: '/',
+  cssSourceMap: false,
+  proxyTable: 
+   { '/api': 
+      { target: 'http://localhost:3022',
+        changeOrigin: true,
+        pathRewrite: {} },
+     '/socket.io': 
+      { target: 'http://localhost:3010',
+        changeOrigin: true,
+        pathRewrite: {},
+        ws: true } } }
+2018-05-16T07:50:33.163Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:50:33.199Z - [32minfo[39m: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2018-05-16T07:50:33.203Z - [31merror[39m: (node:10244) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): TypeError: Cannot read property 'assetsSubDirectory' of undefined
+2018-05-16T07:50:33.204Z - [31merror[39m: (node:10244) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-16T07:53:16.841Z - [32minfo[39m: util.js { env: { NODE_ENV: '"development"' },
+  db: 
+   { uri: '10.222.48.147:27017/gps',
+     options: { user: 'deviot', pass: 'deviot' } },
+  port: 3021,
+  host: '0.0.0.0',
+  log: 
+   { format: 'dev',
+     fileLogger: 
+      { directoryPath: 'D:\\IoTCode\\ciot_supp\\app',
+        fileName: 'app.log',
+        maxsize: 10485760,
+        maxFiles: 2,
+        json: false } },
+  sessionCookie: { maxAge: 86400000, httpOnly: true, secure: false },
+  autoOpenBrowser: true,
+  assetsSubDirectory: 'static',
+  assetsPublicPath: '/',
+  cssSourceMap: false,
+  proxyTable: 
+   { '/api': 
+      { target: 'http://localhost:3022',
+        changeOrigin: true,
+        pathRewrite: {} },
+     '/socket.io': 
+      { target: 'http://localhost:3010',
+        changeOrigin: true,
+        pathRewrite: {},
+        ws: true } } }
+2018-05-16T07:53:17.288Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:53:17.326Z - [32minfo[39m: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2018-05-16T07:53:17.328Z - [31merror[39m: (node:8820) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): TypeError: Cannot read property 'assetsSubDirectory' of undefined
+2018-05-16T07:53:17.329Z - [31merror[39m: (node:8820) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-16T07:56:13.333Z - [32minfo[39m: util.js { env: { NODE_ENV: '"development"' },
+  db: 
+   { uri: '10.222.48.147:27017/gps',
+     options: { user: 'deviot', pass: 'deviot' } },
+  port: 3021,
+  host: '0.0.0.0',
+  log: 
+   { format: 'dev',
+     fileLogger: 
+      { directoryPath: 'D:\\IoTCode\\ciot_supp\\app',
+        fileName: 'app.log',
+        maxsize: 10485760,
+        maxFiles: 2,
+        json: false } },
+  sessionCookie: { maxAge: 86400000, httpOnly: true, secure: false },
+  autoOpenBrowser: true,
+  assetsSubDirectory: 'static',
+  assetsPublicPath: '/',
+  cssSourceMap: false,
+  proxyTable: 
+   { '/api': 
+      { target: 'http://localhost:3022',
+        changeOrigin: true,
+        pathRewrite: {} },
+     '/socket.io': 
+      { target: 'http://localhost:3010',
+        changeOrigin: true,
+        pathRewrite: {},
+        ws: true } } }
+2018-05-16T07:56:13.762Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:56:13.799Z - [32minfo[39m: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2018-05-16T07:56:13.802Z - [31merror[39m: (node:11592) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): TypeError: Cannot read property 'assetsSubDirectory' of undefined
+2018-05-16T07:56:13.803Z - [31merror[39m: (node:11592) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-16T07:57:58.270Z - [32minfo[39m: util.js { env: { NODE_ENV: '"development"' },
+  db: 
+   { uri: '10.222.48.147:27017/gps',
+     options: { user: 'deviot', pass: 'deviot' } },
+  port: 3021,
+  host: '0.0.0.0',
+  log: 
+   { format: 'dev',
+     fileLogger: 
+      { directoryPath: 'D:\\IoTCode\\ciot_supp\\app',
+        fileName: 'app.log',
+        maxsize: 10485760,
+        maxFiles: 2,
+        json: false } },
+  sessionCookie: { maxAge: 86400000, httpOnly: true, secure: false },
+  autoOpenBrowser: true,
+  assetsSubDirectory: 'static',
+  assetsPublicPath: '/',
+  cssSourceMap: false,
+  proxyTable: 
+   { '/api': 
+      { target: 'http://localhost:3022',
+        changeOrigin: true,
+        pathRewrite: {} },
+     '/socket.io': 
+      { target: 'http://localhost:3010',
+        changeOrigin: true,
+        pathRewrite: {},
+        ws: true } } }
+2018-05-16T07:57:58.750Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:57:58.788Z - [32minfo[39m: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2018-05-16T07:57:58.791Z - [31merror[39m: (node:5328) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): TypeError: Cannot read property 'assetsSubDirectory' of undefined
+2018-05-16T07:57:58.791Z - [31merror[39m: (node:5328) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-16T07:58:48.429Z - [32minfo[39m: util.js { env: { NODE_ENV: '"development"' },
+  db: 
+   { uri: '10.222.48.147:27017/gps',
+     options: { user: 'deviot', pass: 'deviot' } },
+  port: 3021,
+  host: '0.0.0.0',
+  log: 
+   { format: 'dev',
+     fileLogger: 
+      { directoryPath: 'D:\\IoTCode\\ciot_supp\\app',
+        fileName: 'app.log',
+        maxsize: 10485760,
+        maxFiles: 2,
+        json: false } },
+  sessionCookie: { maxAge: 86400000, httpOnly: true, secure: false },
+  autoOpenBrowser: true,
+  assetsSubDirectory: 'static',
+  assetsPublicPath: '/',
+  cssSourceMap: false,
+  proxyTable: 
+   { '/api': 
+      { target: 'http://localhost:3022',
+        changeOrigin: true,
+        pathRewrite: {} },
+     '/socket.io': 
+      { target: 'http://localhost:3010',
+        changeOrigin: true,
+        pathRewrite: {},
+        ws: true } } }
+2018-05-16T07:58:48.867Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:58:48.906Z - [32minfo[39m: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2018-05-16T07:58:49.045Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-16T07:58:49.048Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-16T07:58:49.059Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-16T07:58:49.060Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-16T07:58:49.060Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-16T07:58:49.061Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-16T07:58:49.062Z - [32minfo[39m: [32mdefault Database:         10.222.48.147:27017/gps[39m
+2018-05-16T07:58:49.063Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-16T07:58:56.043Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-16T07:58:56.049Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 7019ms[39m                                  [90m15:58:56[39m
+2018-05-16T07:58:56.051Z - [32minfo[39m:  
+2018-05-16T07:59:00.329Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-16T07:59:39.217Z - [32minfo[39m: util.js { env: { NODE_ENV: '"development"' },
+  db: 
+   { uri: '10.222.48.147:27017/gps',
+     options: { user: 'deviot', pass: 'deviot' } },
+  port: 3021,
+  host: '0.0.0.0',
+  log: 
+   { format: 'dev',
+     fileLogger: 
+      { directoryPath: 'D:\\IoTCode\\ciot_supp\\app',
+        fileName: 'app.log',
+        maxsize: 10485760,
+        maxFiles: 2,
+        json: false } },
+  sessionCookie: { maxAge: 86400000, httpOnly: true, secure: false },
+  autoOpenBrowser: true,
+  assetsSubDirectory: 'static',
+  assetsPublicPath: '/',
+  cssSourceMap: false,
+  proxyTable: 
+   { '/api': 
+      { target: 'http://localhost:3022',
+        changeOrigin: true,
+        pathRewrite: {} },
+     '/socket.io': 
+      { target: 'http://localhost:3010',
+        changeOrigin: true,
+        pathRewrite: {},
+        ws: true } } }
+2018-05-16T07:59:39.643Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T07:59:39.683Z - [32minfo[39m: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2018-05-16T07:59:39.818Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-16T07:59:39.821Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-16T07:59:39.832Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-16T07:59:39.833Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-16T07:59:39.834Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-16T07:59:39.834Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-16T07:59:39.835Z - [32minfo[39m: [32mdefault Database:         10.222.48.147:27017/gps[39m
+2018-05-16T07:59:39.836Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-16T07:59:45.200Z - [32minfo[39m: hhhhhhhhhhhhhhhhhh
+2018-05-16T07:59:46.181Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-16T07:59:46.187Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 6386ms[39m                                  [90m15:59:46[39m
+2018-05-16T07:59:46.189Z - [32minfo[39m:  
+2018-05-16T07:59:49.841Z - [32minfo[39m: [0mGET / [36m304 [0m2.359 ms - -[0m
+
+2018-05-16T07:59:49.850Z - [32minfo[39m: [0mGET /app.js [36m304 [0m1.848 ms - -[0m
+
+2018-05-16T07:59:49.949Z - [32minfo[39m: [0mGET /static/fonts/fontawesome-webfont.af7ae50.woff2 [36m304 [0m0.371 ms - -[0m
+
+2018-05-16T08:04:23.190Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-16T08:05:04.636Z - [32minfo[39m: util.js { env: { NODE_ENV: '"development"' },
+  db: 
+   { uri: '10.222.48.147:27017/gps',
+     options: { user: 'deviot', pass: 'deviot' } },
+  port: 3021,
+  host: '0.0.0.0',
+  log: 
+   { format: 'dev',
+     fileLogger: 
+      { directoryPath: 'D:\\IoTCode\\ciot_supp\\app',
+        fileName: 'app.log',
+        maxsize: 10485760,
+        maxFiles: 2,
+        json: false } },
+  sessionCookie: { maxAge: 86400000, httpOnly: true, secure: false },
+  autoOpenBrowser: true,
+  assetsSubDirectory: 'static',
+  assetsPublicPath: '/',
+  cssSourceMap: false,
+  proxyTable: 
+   { '/api': 
+      { target: 'http://localhost:3022',
+        changeOrigin: true,
+        pathRewrite: {} },
+     '/socket.io': 
+      { target: 'http://localhost:3010',
+        changeOrigin: true,
+        pathRewrite: {},
+        ws: true } } }
+2018-05-16T08:05:05.074Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@10.222.48.147:27017/gps
+2018-05-16T08:05:05.114Z - [32minfo[39m: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+2018-05-16T08:05:05.266Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-16T08:05:05.268Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-16T08:05:05.278Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-16T08:05:05.279Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-16T08:05:05.279Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-16T08:05:05.280Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-16T08:05:05.280Z - [32minfo[39m: [32mdefault Database:         10.222.48.147:27017/gps[39m
+2018-05-16T08:05:05.280Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-16T08:05:11.822Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-16T08:05:11.829Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 6578ms[39m                                  [90m16:05:11[39m
+2018-05-16T08:05:11.832Z - [32minfo[39m:  
+2018-05-16T08:05:31.249Z - [32minfo[39m: hhhhhhhhhhhhhhhhhh
+2018-05-16T08:05:31.792Z - [32minfo[39m: [0mGET /__webpack_hmr [32m200 [0m5976.227 ms - -[0m
+
+2018-05-16T08:05:35.491Z - [32minfo[39m: [0mGET / [36m304 [0m0.613 ms - -[0m
+
+2018-05-16T08:05:35.504Z - [32minfo[39m: [0mGET /app.js [36m304 [0m1.794 ms - -[0m
+
+2018-05-16T08:05:35.597Z - [32minfo[39m: [0mGET /static/fonts/fontawesome-webfont.af7ae50.woff2 [36m304 [0m0.355 ms - -[0m
+
+2018-05-16T08:06:32.273Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-16T12:35:55.099Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-16T12:35:57.782Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-16T12:35:57.789Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-16T12:35:57.797Z - [31merror[39m: (node:18636) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): TypeError: Cannot convert undefined or null to object
+2018-05-16T12:35:57.798Z - [31merror[39m: (node:18636) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-16T12:39:26.126Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@localhost:27017/gps
+2018-05-16T12:39:27.386Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-16T12:39:27.389Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-16T12:39:27.407Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-16T12:39:27.409Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-16T12:39:27.411Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-16T12:39:27.413Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-16T12:39:27.414Z - [32minfo[39m: [32mdefault Database:         localhost:27017/gps[39m
+2018-05-16T12:39:27.415Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-16T12:39:34.842Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-16T12:39:34.854Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 7475ms[39m                                  [90m20:39:34[39m
+2018-05-16T12:39:34.857Z - [32minfo[39m:  
+2018-05-16T12:40:16.310Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-16T12:43:07.116Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-16T12:43:09.382Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-16T12:43:09.388Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-16T12:43:09.395Z - [31merror[39m: (node:17924) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): TypeError: Cannot convert undefined or null to object
+2018-05-16T12:43:09.397Z - [31merror[39m: (node:17924) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-17T00:44:49.401Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-17T00:44:51.976Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-17T00:44:51.978Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-17T00:44:51.997Z - [31merror[39m: (node:16588) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): TypeError: Cannot convert undefined or null to object
+2018-05-17T00:44:51.997Z - [31merror[39m: (node:16588) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-17T00:50:33.563Z - [31merror[39m: (node:17584) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot convert undefined or null to object
+2018-05-17T00:50:33.565Z - [31merror[39m: (node:17584) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-17T00:57:31.544Z - [31merror[39m: (node:18260) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot convert undefined or null to object
+2018-05-17T00:57:31.545Z - [31merror[39m: (node:18260) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-17T00:59:20.263Z - [31merror[39m: (node:10516) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): ReferenceError: _resolve is not defined
+2018-05-17T00:59:20.264Z - [31merror[39m: (node:10516) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-17T00:59:20.264Z - [31merror[39m: (node:10516) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 3): TypeError: _reject is not a function
+2018-05-17T01:02:37.522Z - [31merror[39m: (node:15288) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot convert undefined or null to object
+2018-05-17T01:02:37.527Z - [31merror[39m: (node:15288) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-17T01:04:32.732Z - [31merror[39m: (node:10812) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot convert undefined or null to object
+2018-05-17T01:04:32.733Z - [31merror[39m: (node:10812) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-17T01:16:28.417Z - [31merror[39m: (node:16084) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot convert undefined or null to object
+2018-05-17T01:16:28.419Z - [31merror[39m: (node:16084) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-17T01:20:06.963Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-17T01:20:06.966Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-17T01:20:06.978Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T01:20:06.979Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T01:20:06.979Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-17T01:20:06.980Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-17T01:20:06.981Z - [32minfo[39m: [32mdefault Database:         localhost:27017/gps[39m
+2018-05-17T01:20:06.981Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T01:20:13.377Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-17T01:20:13.384Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 6436ms[39m                                  [90m09:20:13[39m
+2018-05-17T01:20:13.387Z - [32minfo[39m:  
+2018-05-17T01:20:23.187Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T01:23:59.873Z - [31merror[39m: uncaughtException: path is not defined date=Thu May 17 2018 09:23:59 GMT+0800 (China Standard Time), pid=19324, uid=null, gid=null, cwd=D:\IoTCode\ciot_supp\app, execPath=D:\some Tools\node8.30\node.exe, version=v8.3.0, argv=[D:\some Tools\node8.30\node.exe, D:\IoTCode\ciot_supp\app\build\int-server.js], rss=78159872, heapTotal=65105920, heapUsed=45325944, external=18710426, loadavg=[0, 0, 0], uptime=445881.7515668
+ReferenceError: path is not defined
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\config\build.js:5:10)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Module.require (module.js:517:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\build\webpack.prod.conf.js:15:12)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+    at Module.require (module.js:517:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (D:\IoTCode\ciot_supp\app\lib\express.js:19:5)
+    at Module._compile (module.js:573:30)
+    at Object.Module._extensions..js (module.js:584:10)
+    at Module.load (module.js:507:32)
+    at tryModuleLoad (module.js:470:12)
+    at Function.Module._load (module.js:462:3)
+2018-05-17T01:26:43.610Z - [31merror[39m: (node:6540) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot convert undefined or null to object
+2018-05-17T01:26:43.612Z - [31merror[39m: (node:6540) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-17T01:31:02.011Z - [31merror[39m: (node:17020) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot convert undefined or null to object
+2018-05-17T01:31:02.012Z - [31merror[39m: (node:17020) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-17T01:33:48.418Z - [32minfo[39m: init done
+2018-05-17T01:33:48.420Z - [32minfo[39m: static resource done
+2018-05-17T01:33:48.423Z - [31merror[39m: (node:18948) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot convert undefined or null to object
+2018-05-17T01:33:48.423Z - [31merror[39m: (node:18948) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-17T01:35:51.581Z - [32minfo[39m: init done
+2018-05-17T01:35:51.584Z - [32minfo[39m: static resource done
+2018-05-17T01:35:51.586Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://ciot-dom_dev.flin.digital.cargosmart.com
+2018-05-17T01:35:51.589Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://ciot-dom_dev.flin.digital.cargosmart.com
+2018-05-17T01:35:51.596Z - [32minfo[39m: middle ware done
+2018-05-17T01:35:51.596Z - [32minfo[39m: express done
+2018-05-17T01:35:51.601Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T01:35:51.601Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T01:35:51.602Z - [32minfo[39m: [32mEnvironment:      int[39m
+2018-05-17T01:35:51.602Z - [32minfo[39m: [32mServer:           http://0.0.0.0:8081[39m
+2018-05-17T01:35:51.602Z - [32minfo[39m: [32mdefault Database:         itciotmongo01:27017/iot[39m
+2018-05-17T01:35:51.603Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T01:37:01.599Z - [32minfo[39m: [0mGET / [33m404 [0m338.172 ms - 139[0m
+
+2018-05-17T01:41:20.522Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T01:42:24.664Z - [32minfo[39m: init done
+2018-05-17T01:42:24.667Z - [31merror[39m: (node:19680) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot read property 'assetsPublicPath' of undefined
+2018-05-17T01:42:24.667Z - [31merror[39m: (node:19680) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-17T01:44:36.434Z - [32minfo[39m: init done
+2018-05-17T01:44:36.438Z - [31merror[39m: (node:19784) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 2): TypeError: Cannot read property 'assetsPublicPath' of undefined
+2018-05-17T01:44:36.439Z - [31merror[39m: (node:19784) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2018-05-17T01:45:57.537Z - [32minfo[39m: init done
+2018-05-17T01:45:57.539Z - [32minfo[39m: static resource done
+2018-05-17T01:45:57.673Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-17T01:45:57.676Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-17T01:45:57.684Z - [32minfo[39m: middle ware done
+2018-05-17T01:45:57.684Z - [32minfo[39m: express done
+2018-05-17T01:45:57.690Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T01:45:57.691Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T01:45:57.692Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-17T01:45:57.692Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-17T01:45:57.693Z - [32minfo[39m: [32mdefault Database:         localhost:27017/gps[39m
+2018-05-17T01:45:57.694Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T01:46:04.289Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-17T01:46:04.296Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 6640ms[39m                                  [90m09:46:04[39m
+2018-05-17T01:46:04.298Z - [32minfo[39m:  
+2018-05-17T01:47:52.798Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T01:48:35.133Z - [32minfo[39m: init done
+2018-05-17T01:48:35.136Z - [32minfo[39m: static resource done
+2018-05-17T01:48:35.268Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-17T01:48:35.271Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-17T01:48:35.279Z - [32minfo[39m: middle ware done
+2018-05-17T01:48:35.279Z - [32minfo[39m: express done
+2018-05-17T01:48:35.285Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T01:48:35.285Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T01:48:35.286Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-17T01:48:35.287Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-17T01:48:35.287Z - [32minfo[39m: [32mdefault Database:         localhost:27017/gps[39m
+2018-05-17T01:48:35.288Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T01:48:41.863Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-17T01:48:41.869Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 6618ms[39m                                  [90m09:48:41[39m
+2018-05-17T01:48:41.871Z - [32minfo[39m:  
+2018-05-17T01:51:04.449Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T01:51:40.929Z - [32minfo[39m: init done
+2018-05-17T01:51:40.931Z - [32minfo[39m: static resource done
+2018-05-17T01:51:41.246Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-17T01:51:41.248Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-17T01:51:41.254Z - [32minfo[39m: middle ware done
+2018-05-17T01:51:41.255Z - [32minfo[39m: express done
+2018-05-17T01:51:41.260Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T01:51:41.260Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T01:51:41.261Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-17T01:51:41.261Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-17T01:51:41.261Z - [32minfo[39m: [32mdefault Database:         localhost:27017/gps[39m
+2018-05-17T01:51:41.262Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T01:51:48.402Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-17T01:51:48.409Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 7179ms[39m                                  [90m09:51:48[39m
+2018-05-17T01:51:48.411Z - [32minfo[39m:  
+2018-05-17T01:52:12.019Z - [32minfo[39m: [0mGET / [36m304 [0m1.541 ms - -[0m
+
+2018-05-17T01:52:12.085Z - [32minfo[39m: [0mGET /app.js [36m304 [0m1.680 ms - -[0m
+
+2018-05-17T01:52:12.451Z - [32minfo[39m: [0mGET /app.js.map [32m200 [0m2.043 ms - 1661769[0m
+
+2018-05-17T01:52:12.456Z - [32minfo[39m: [0mGET /static/fonts/fontawesome-webfont.af7ae50.woff2 [36m304 [0m0.331 ms - -[0m
+
+2018-05-17T01:52:43.824Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T01:53:22.081Z - [32minfo[39m: init done
+2018-05-17T01:53:22.083Z - [32minfo[39m: static resource done
+2018-05-17T01:53:22.209Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-17T01:53:22.212Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-17T01:53:22.219Z - [32minfo[39m: middle ware done
+2018-05-17T01:53:22.220Z - [32minfo[39m: express done
+2018-05-17T01:53:22.225Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T01:53:22.226Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T01:53:22.227Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-17T01:53:22.227Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-17T01:53:22.228Z - [32minfo[39m: [32mdefault Database:         localhost:27017/gps[39m
+2018-05-17T01:53:22.228Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T01:53:29.948Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-17T01:53:29.959Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 7729ms[39m                                  [90m09:53:29[39m
+2018-05-17T01:53:29.961Z - [32minfo[39m:  
+2018-05-17T01:53:30.246Z - [32minfo[39m: [0mGET / [36m304 [0m3765.639 ms - -[0m
+
+2018-05-17T01:53:30.844Z - [32minfo[39m: [0mGET /__webpack_hmr [32m200 [0m3765.240 ms - -[0m
+
+2018-05-17T01:53:30.897Z - [32minfo[39m: [0mGET /app.js [36m304 [0m1.944 ms - -[0m
+
+2018-05-17T01:53:32.448Z - [32minfo[39m: [0mGET /app.js.map [36m304 [0m3.453 ms - -[0m
+
+2018-05-17T01:53:33.369Z - [32minfo[39m: [0mGET /static/fonts/fontawesome-webfont.af7ae50.woff2 [36m304 [0m0.427 ms - -[0m
+
+2018-05-17T01:53:50.505Z - [32minfo[39m: [0mGET / [36m304 [0m0.250 ms - -[0m
+
+2018-05-17T01:53:55.602Z - [32minfo[39m: [0mGET /dist/static/car-active [33m404 [0m3.273 ms - 161[0m
+
+2018-05-17T01:53:55.611Z - [32minfo[39m: [0mGET /__webpack_hmr [32m200 [0m0.293 ms - -[0m
+
+2018-05-17T01:53:57.012Z - [32minfo[39m: [0mGET /app.js [36m304 [0m1.649 ms - -[0m
+
+2018-05-17T01:53:59.136Z - [32minfo[39m: [0mGET /dist/static/car-active.svg [33m404 [0m0.598 ms - 165[0m
+
+2018-05-17T01:55:58.301Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@localhost:27017/gps
+2018-05-17T01:55:59.379Z - [32minfo[39m: init done
+2018-05-17T01:55:59.381Z - [32minfo[39m: static resource done
+2018-05-17T01:55:59.520Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-17T01:55:59.523Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-17T01:55:59.531Z - [32minfo[39m: middle ware done
+2018-05-17T01:55:59.531Z - [32minfo[39m: express done
+2018-05-17T01:55:59.536Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T01:55:59.537Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T01:55:59.537Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-17T01:55:59.538Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-17T01:55:59.539Z - [32minfo[39m: [32mdefault Database:         localhost:27017/gps[39m
+2018-05-17T01:55:59.539Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T01:56:06.048Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-17T01:56:06.054Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 6546ms[39m                                  [90m09:56:06[39m
+2018-05-17T01:56:06.056Z - [32minfo[39m:  
+2018-05-17T01:57:16.342Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T01:58:24.846Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-17T01:58:27.705Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-17T01:58:27.712Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-17T01:58:27.717Z - [32minfo[39m: init done
+2018-05-17T01:58:27.718Z - [32minfo[39m: static resource done
+2018-05-17T01:58:27.725Z - [32minfo[39m: middle ware done
+2018-05-17T01:58:27.726Z - [32minfo[39m: express done
+2018-05-17T01:58:27.730Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T01:58:27.730Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T01:58:27.731Z - [32minfo[39m: [32mEnvironment:      int[39m
+2018-05-17T01:58:27.732Z - [32minfo[39m: [32mServer:           http://0.0.0.0:8081[39m
+2018-05-17T01:58:27.732Z - [32minfo[39m: [32mdefault Database:         itciotmongo01:27017/iot[39m
+2018-05-17T01:58:27.733Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T01:58:30.840Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T02:00:42.058Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-17T02:00:44.326Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-17T02:00:44.333Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-17T02:00:44.350Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T02:00:44.351Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T02:00:44.352Z - [32minfo[39m: [32mEnvironment:      int[39m
+2018-05-17T02:00:44.352Z - [32minfo[39m: [32mServer:           http://0.0.0.0:8081[39m
+2018-05-17T02:00:44.353Z - [32minfo[39m: [32mdefault Database:         itciotmongo01:27017/iot[39m
+2018-05-17T02:00:44.354Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T02:00:53.382Z - [32minfo[39m: [0mGET / [33m404 [0m4.372 ms - 139[0m
+
+2018-05-17T02:01:59.461Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T02:03:09.283Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-17T02:03:11.550Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-17T02:03:11.553Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-17T02:03:11.567Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T02:03:11.568Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T02:03:11.568Z - [32minfo[39m: [32mEnvironment:      int[39m
+2018-05-17T02:03:11.569Z - [32minfo[39m: [32mServer:           http://0.0.0.0:8081[39m
+2018-05-17T02:03:11.569Z - [32minfo[39m: [32mdefault Database:         itciotmongo01:27017/iot[39m
+2018-05-17T02:03:11.569Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T02:03:26.835Z - [32minfo[39m: [0mGET / [33m404 [0m4.343 ms - 139[0m
+
+2018-05-17T02:05:39.273Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T02:10:59.159Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-17T02:11:01.426Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-17T02:11:01.428Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-17T02:11:01.444Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T02:11:01.444Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T02:11:01.445Z - [32minfo[39m: [32mEnvironment:      int[39m
+2018-05-17T02:11:01.446Z - [32minfo[39m: [32mServer:           http://0.0.0.0:8081[39m
+2018-05-17T02:11:01.446Z - [32minfo[39m: [32mdefault Database:         itciotmongo01:27017/iot[39m
+2018-05-17T02:11:01.447Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T02:11:15.592Z - [32minfo[39m: [0mGET /dist/ [33m404 [0m4.394 ms - 144[0m
+
+2018-05-17T02:11:17.312Z - [32minfo[39m: [0mGET / [33m404 [0m0.578 ms - 139[0m
+
+2018-05-17T02:11:30.168Z - [32minfo[39m: [0mGET /dist/index.html [33m404 [0m0.504 ms - 154[0m
+
+2018-05-17T02:13:20.812Z - [32minfo[39m: [0mGET / [33m404 [0m0.483 ms - 139[0m
+
+2018-05-17T02:13:24.304Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T02:14:32.065Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-17T02:14:34.636Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-17T02:14:34.643Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-17T02:14:34.659Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T02:14:34.660Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T02:14:34.660Z - [32minfo[39m: [32mEnvironment:      int[39m
+2018-05-17T02:14:34.661Z - [32minfo[39m: [32mServer:           http://0.0.0.0:8081[39m
+2018-05-17T02:14:34.662Z - [32minfo[39m: [32mdefault Database:         itciotmongo01:27017/iot[39m
+2018-05-17T02:14:34.664Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T02:14:38.511Z - [32minfo[39m: [0mGET / [33m404 [0m4.567 ms - 139[0m
+
+2018-05-17T02:14:50.426Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T02:15:57.190Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-17T02:15:59.457Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-17T02:15:59.459Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-17T02:15:59.474Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T02:15:59.474Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T02:15:59.475Z - [32minfo[39m: [32mEnvironment:      int[39m
+2018-05-17T02:15:59.475Z - [32minfo[39m: [32mServer:           http://0.0.0.0:8081[39m
+2018-05-17T02:15:59.476Z - [32minfo[39m: [32mdefault Database:         itciotmongo01:27017/iot[39m
+2018-05-17T02:15:59.476Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T02:18:04.461Z - [32minfo[39m: [0mGET / [33m404 [0m4.219 ms - 139[0m
+
+2018-05-17T02:19:23.539Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-17T02:19:25.807Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-17T02:19:25.816Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-17T02:19:25.832Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T02:19:25.833Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T02:19:25.834Z - [32minfo[39m: [32mEnvironment:      int[39m
+2018-05-17T02:19:25.834Z - [32minfo[39m: [32mServer:           http://0.0.0.0:8081[39m
+2018-05-17T02:19:25.835Z - [32minfo[39m: [32mdefault Database:         itciotmongo01:27017/iot[39m
+2018-05-17T02:19:25.836Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T02:19:33.962Z - [32minfo[39m: [0mGET / [33m404 [0m3.744 ms - 139[0m
+
+2018-05-17T02:19:35.024Z - [32minfo[39m: [0mGET / [33m404 [0m0.418 ms - 139[0m
+
+2018-05-17T02:19:35.797Z - [32minfo[39m: [0mGET / [33m404 [0m0.458 ms - 139[0m
+
+2018-05-17T02:19:36.715Z - [32minfo[39m: [0mGET / [33m404 [0m0.196 ms - 139[0m
+
+2018-05-17T02:20:10.102Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T02:21:34.000Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-17T02:21:36.268Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-17T02:21:36.275Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-17T02:21:36.291Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T02:21:36.291Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T02:21:36.292Z - [32minfo[39m: [32mEnvironment:      int[39m
+2018-05-17T02:21:36.293Z - [32minfo[39m: [32mServer:           http://0.0.0.0:8081[39m
+2018-05-17T02:21:36.294Z - [32minfo[39m: [32mdefault Database:         itciotmongo01:27017/iot[39m
+2018-05-17T02:21:36.295Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T02:21:39.978Z - [32minfo[39m: int
+2018-05-17T02:23:42.053Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T02:24:48.980Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-17T02:24:51.247Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-17T02:24:51.253Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-17T02:24:51.271Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T02:24:51.272Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T02:24:51.273Z - [32minfo[39m: [32mEnvironment:      int[39m
+2018-05-17T02:24:51.274Z - [32minfo[39m: [32mServer:           http://0.0.0.0:8081[39m
+2018-05-17T02:24:51.275Z - [32minfo[39m: [32mdefault Database:         itciotmongo01:27017/iot[39m
+2018-05-17T02:24:51.275Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T02:28:01.440Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T02:30:31.829Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-17T02:30:34.401Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-17T02:30:34.403Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-17T02:30:34.423Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T02:30:34.423Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T02:30:34.424Z - [32minfo[39m: [32mEnvironment:      int[39m
+2018-05-17T02:30:34.424Z - [32minfo[39m: [32mServer:           http://0.0.0.0:8081[39m
+2018-05-17T02:30:34.425Z - [32minfo[39m: [32mdefault Database:         itciotmongo01:27017/iot[39m
+2018-05-17T02:30:34.425Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T02:31:06.017Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T02:41:03.941Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-17T02:41:06.206Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-17T02:41:06.208Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-17T02:41:06.226Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T02:41:06.226Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T02:41:06.227Z - [32minfo[39m: [32mEnvironment:      int[39m
+2018-05-17T02:41:06.227Z - [32minfo[39m: [32mServer:           http://0.0.0.0:8081[39m
+2018-05-17T02:41:06.227Z - [32minfo[39m: [32mdefault Database:         itciotmongo01:27017/iot[39m
+2018-05-17T02:41:06.228Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T02:52:37.628Z - [32minfo[39m: connect iot mongodb url mongodb://deviot:deviot@localhost:27017/gps
+2018-05-17T02:52:38.820Z - [32minfo[39m: [HPM] Proxy created: /api  ->  http://localhost:3022
+2018-05-17T02:52:38.823Z - [32minfo[39m: [HPM] Proxy created: /socket.io  ->  http://localhost:3010
+2018-05-17T02:52:38.834Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T02:52:38.835Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T02:52:38.835Z - [32minfo[39m: [32mEnvironment:      development[39m
+2018-05-17T02:52:38.835Z - [32minfo[39m: [32mServer:           http://0.0.0.0:3021[39m
+2018-05-17T02:52:38.836Z - [32minfo[39m: [32mdefault Database:         localhost:27017/gps[39m
+2018-05-17T02:52:38.836Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T02:52:45.402Z - [32minfo[39m: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-05-17T02:52:45.408Z - [32minfo[39m: [42m[30m DONE [39m[49m [32mCompiled successfully in 6605ms[39m                                  [90m10:52:45[39m
+2018-05-17T02:52:45.410Z - [32minfo[39m:  
+2018-05-17T02:54:04.911Z - [32minfo[39m: [0mGET / [36m304 [0m1.545 ms - -[0m
+
+2018-05-17T02:54:26.766Z - [32minfo[39m: [0mGET / [36m304 [0m0.359 ms - -[0m
+
+2018-05-17T02:54:33.365Z - [32minfo[39m: [0mGET /app.js [36m304 [0m1.730 ms - -[0m
+
+2018-05-17T02:54:33.829Z - [32minfo[39m: [0mGET /app.js.map [36m304 [0m2.614 ms - -[0m
+
+2018-05-17T02:54:33.831Z - [32minfo[39m: [0mGET /static/fonts/fontawesome-webfont.af7ae50.woff2 [36m304 [0m0.337 ms - -[0m
+
+2018-05-17T02:54:51.292Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T05:23:28.467Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-17T05:23:31.037Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-17T05:23:31.044Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-17T05:23:31.075Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T05:23:31.076Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T05:23:31.077Z - [32minfo[39m: [32mEnvironment:      int[39m
+2018-05-17T05:23:31.077Z - [32minfo[39m: [32mServer:           http://0.0.0.0:8081[39m
+2018-05-17T05:23:31.078Z - [32minfo[39m: [32mdefault Database:         itciotmongo01:27017/iot[39m
+2018-05-17T05:23:31.079Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T05:23:33.166Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.
+2018-05-17T05:26:00.874Z - [32minfo[39m: connect iot mongodb url mongodb://iot_owner:iot_owner@itciotmongo01:27017/iot
+2018-05-17T05:26:03.140Z - [31merror[39m: [31mCould not connect to MongoDB![39m
+2018-05-17T05:26:03.142Z - [32minfo[39m: { MongoError: failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]
+    at Pool.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\topologies\server.js:505:11)
+    at emitOne (events.js:115:13)
+    at Pool.emit (events.js:210:7)
+    at Connection.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\pool.js:329:12)
+    at Object.onceWrapper (events.js:318:30)
+    at emitTwo (events.js:125:13)
+    at Connection.emit (events.js:213:7)
+    at Socket.<anonymous> (D:\IoTCode\ciot_supp\app\node_modules\mongoose\node_modules\mongodb-core\lib\connection\connection.js:245:50)
+    at Object.onceWrapper (events.js:316:30)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'MongoNetworkError',
+  message: 'failed to connect to server [itciotmongo01:27017] on first connect [MongoNetworkError: getaddrinfo ENOTFOUND itciotmongo01 itciotmongo01:27017]' }
+2018-05-17T05:26:03.160Z - [32minfo[39m: [32mAPP name:         ciot_supp[39m
+2018-05-17T05:26:03.161Z - [32minfo[39m: [32mAPP version:      1.0.0[39m
+2018-05-17T05:26:03.161Z - [32minfo[39m: [32mEnvironment:      int[39m
+2018-05-17T05:26:03.161Z - [32minfo[39m: [32mServer:           http://0.0.0.0:8081[39m
+2018-05-17T05:26:03.162Z - [32minfo[39m: [32mdefault Database:         itciotmongo01:27017/iot[39m
+2018-05-17T05:26:03.162Z - [32minfo[39m: [32mServer started successfully![39m
+2018-05-17T05:44:18.384Z - [32minfo[39m: Received shutdown signal, shutting down gracefully.

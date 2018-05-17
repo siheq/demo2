@@ -1,0 +1,36 @@
+[
+  {
+    "_id": "59c3ff4db8375ae68ddfb521",
+    "unlocode": "IDJKT",
+    "csID": "207",
+    "timezone": "Asia/Jakarta",
+    "uc_name": "JAKARTA",
+    "fullName": "Jakarta, Jakarta Raya, Indonesia",
+    "geo": [
+      106.89045,
+      -6.101298
+    ],
+    "refreshDateTime": "2017-09-21T18:04:22.823Z",
+    "name": "Jakarta",
+    "csCityID": "2531181",
+    "locationID": "P207",
+    "type": "PORT"
+  },
+  {
+    "_id": "59c3ff50b8375ae68ddfc36d",
+    "unlocode": "IDUTC",
+    "csID": "4614",
+    "timezone": "Asia/Jakarta",
+    "uc_name": "JAKARTA UTC1",
+    "fullName": "Jakarta UTC1, JAKARTA UTC1, INDONESIA",
+    "geo": [
+      106.8456,
+      -6.208763
+    ],
+    "refreshDateTime": "2017-09-21T18:04:22.823Z",
+    "name": "Jakarta UTC1",
+    "csCityID": "2507164",
+    "locationID": "P4614",
+    "type": "PORT"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "59c3ff50b8375ae68ddfc0d3",
+    "unlocode": "JPYOK",
+    "csID": "267",
+    "timezone": "Asia/Tokyo",
+    "uc_name": "YOKOHAMA",
+    "fullName": "Yokohama, Kanagawa, Japan",
+    "geo": [
+      139.63803,
+      35.443707
+    ],
+    "refreshDateTime": "2017-09-21T18:04:22.823Z",
+    "name": "Yokohama",
+    "csCityID": "2536050",
+    "locationID": "P267",
+    "type": "PORT"
+  }
+]
